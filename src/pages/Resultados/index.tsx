@@ -70,7 +70,7 @@ const Resultados = () => {
     <SafeAreaView style={{ flex: 1 }}>
       <View style={styles.container}>
         <TouchableOpacity onPress={handleNavigateBack}>
-          <Icon name="arrow-left" size={20} color="#00BFFF" />
+          <Icon name="arrow-left" size={20} color="#ff8c00" />
         </TouchableOpacity>
 
         {isLoading ? (
@@ -80,7 +80,7 @@ const Resultados = () => {
           </View>
         ) : (
           <>
-            <Text style={styles.title}>Resultados da pesquisa</Text>
+            <Text style={styles.title}>Reseitas Para Você</Text>
             <Text style={styles.description}>
               {filteredReceitas.length} receitas encontradas:
             </Text>
@@ -112,7 +112,7 @@ const styles = StyleSheet.create({
     padding: 32,
   },
   title: {
-    color: '#322153',
+    color: '#ff8c00',
     fontSize: 28,
     fontFamily: 'Ubuntu_700Bold',
     maxWidth: 260,

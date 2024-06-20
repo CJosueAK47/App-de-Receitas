@@ -40,7 +40,7 @@ interface Item {
         <SafeAreaView  style={{flex: 1}}>
             <View style={styles.container}>
                 <TouchableOpacity onPress={handleNavigateBack}>
-                    <Icon name="arrow-left" size={20} color="#00BFFF" />
+                    <Icon name="arrow-left" size={20} color="#ff8c00" />
                 </TouchableOpacity>
                 <Text style={styles.header}> {dados.route.params.nome} </Text>
                 <FlatList
@@ -66,12 +66,10 @@ const styles = StyleSheet.create({
     container: {
       flex: 1,
       padding: 32,
-      //borderWidth: 2,
-      //borderColor: 'blue'
     },
   
     title: {
-      color: '#322153',
+      color: 'black',
       fontSize: 28,
       fontFamily: 'Ubuntu_700Bold',
       maxWidth: 260,
@@ -80,7 +78,7 @@ const styles = StyleSheet.create({
     },
 
     header: {
-      color: '#322153',
+      color: '#ff8c00',
       fontSize: 28,
       fontFamily: 'Ubuntu_700Bold',
       maxWidth: 260,

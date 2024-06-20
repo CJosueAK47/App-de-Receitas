@@ -23,10 +23,10 @@ const Home = () => {
                     <Text style={styles.description}>Ajudaremos você a fazer receitas com ingredientes que estão na sua casa!</Text>
                     
                 </View>
-                <View style={styles.footer}>
+                <View>
                     <RectButton style={styles.button} onPress={handleNavigateToPesquisa}>
                         <View style={styles.buttonIcon}>
-                            <Icon name="arrow-right" color="#fff" size={24}/>
+                            <Icon name="arrow-right" color="#ff8c00" size={24}/>
                         </View>
                         <Text style={styles.buttonText}>Pesquisar</Text>
                     </RectButton>
@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
     },
   
     title: {
-      color: '#322153',
+      color: '#ff8c00',
       fontSize: 32,
       fontFamily: 'Ubuntu_700Bold',
       maxWidth: 260,
@@ -63,12 +63,7 @@ const styles = StyleSheet.create({
       fontFamily: 'Roboto_400Regular',
       maxWidth: 260,
       lineHeight: 24,
-    },
-  
-    footer: {},
-  
-    select: {},
-  
+    },  
     input: {
       height: 60,
       backgroundColor: '#FFF',
@@ -79,7 +74,7 @@ const styles = StyleSheet.create({
     },
   
     button: {
-      backgroundColor: '#00BFFF',
+      backgroundColor: 'black',
       height: 60,
       flexDirection: 'row',
       borderRadius: 10,

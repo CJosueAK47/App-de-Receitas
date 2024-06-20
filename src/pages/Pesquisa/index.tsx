@@ -46,7 +46,7 @@ const Pesquisa = () => {
     <SafeAreaView style={{ flex: 1 }}>
       <View style={styles.container}>
         <TouchableOpacity onPress={handleNavigateBack}>
-          <Icon name="arrow-left" size={20} color="#00BFFF" />
+          <Icon name="arrow-left" size={20} color="#ff8c00" />
         </TouchableOpacity>
         {isLoad ? (
           <View style={styles.loadView}>
@@ -55,7 +55,7 @@ const Pesquisa = () => {
           </View>
         ) : (
           <>
-            <Text style={styles.title}>Olá.</Text>
+            <Text style={styles.title}>Vamos Cozinhar?</Text>
             <Text style={styles.description}>
               Digite abaixo os ingredientes que você tem em casa!
             </Text>
@@ -84,7 +84,7 @@ const Pesquisa = () => {
             </RectButton>
             <RectButton style={styles.button} onPress={handleNavigateToResultados}>
               <View style={styles.buttonIcon}>
-                <Icon name="search" color="#fff" size={24} />
+                <Icon name="search" color="#ff8c00" size={24} />
               </View>
               <Text style={styles.buttonText}>Procurar</Text>
             </RectButton>
@@ -118,7 +118,7 @@ const styles = StyleSheet.create({
     height: 30,
     width: 30,
     justifyContent: 'center',
-    backgroundColor: '#00BFFF',
+    backgroundColor: 'black',
     alignItems: 'center',
     borderRadius: 25,
     marginTop: 16,
@@ -127,12 +127,12 @@ const styles = StyleSheet.create({
     height: 30,
     width: 30,
     justifyContent: 'center',
-    backgroundColor: '#FF6347',
+    backgroundColor: '#ff8c00',
     alignItems: 'center',
     borderRadius: 15,
   },
   title: {
-    color: '#322153',
+    color: 'black',
     fontSize: 32,
     fontFamily: 'Ubuntu_700Bold',
     maxWidth: 260,
@@ -148,7 +148,7 @@ const styles = StyleSheet.create({
     paddingBottom: 40,
   },
   button: {
-    backgroundColor: '#00BFFF',
+    backgroundColor: 'black',
     height: 60,
     flexDirection: 'row',
     borderRadius: 10,
