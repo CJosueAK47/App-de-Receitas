@@ -51,7 +51,7 @@ const Pesquisa = () => {
         {isLoad ? (
           <View style={styles.loadView}>
             <Text style={styles.loadText}>Procurando Receitas...</Text>
-            <ActivityIndicator size="large" color="#00BFFF" />
+            <ActivityIndicator size="large" color="#ff8c00" />
           </View>
         ) : (
           <>

@@ -80,7 +80,7 @@ const Resultados = () => {
           </View>
         ) : (
           <>
-            <Text style={styles.title}>Reseitas Para Você</Text>
+            <Text style={styles.title}>Receitas Para Você</Text>
             <Text style={styles.description}>
               {filteredReceitas.length} receitas encontradas:
             </Text>
